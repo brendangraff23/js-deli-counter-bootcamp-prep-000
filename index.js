@@ -31,7 +31,7 @@ function currentLine(katzDeliLine)
   {
     text[i] = (i + 1) + '. ' + katzDeliLine[i];
   }
-  text.join(', ')
+  text.join(', x')
   return `The line is currently: ${text}`
   }
 }
